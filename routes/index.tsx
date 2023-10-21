@@ -7,6 +7,7 @@ export default function Home() {
     <NoiseButton noiseType="low"/>
     <NoiseButton noiseType="medium"></NoiseButton>
     <NoiseButton noiseType="high"></NoiseButton>
+    
   </div>
   );
 }

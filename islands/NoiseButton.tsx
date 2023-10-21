@@ -29,6 +29,7 @@ export default function MyIsland(props: {noiseType: string}) {
     <div onClick={() => recordNoise(props.noiseType)} className={`btn-noise ${props.noiseType}`}>
         <p>{titleCase(props.noiseType)} noise</p>
         <p>{status}</p>
+        <p>I love Jadyn</p>
     </div>
   );
 }
